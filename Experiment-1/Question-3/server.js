@@ -11,4 +11,9 @@ http.createServer((req, res) => {
   });
 }).listen(3000, () => {
   console.log("Server running at http://localhost:3000");
-});
+})
+
+
+// Errors :
+// 1) Error: listen EADDRINUSE: address already in use :::3000
+// 2) ReferenceError: fs is not defined ,Forgot to require("fs")

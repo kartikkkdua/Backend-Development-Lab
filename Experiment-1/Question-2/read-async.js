@@ -12,3 +12,10 @@ async function readFile(filename) {
 }
 
 readFile("abc.txt");
+
+
+
+
+// Errors:
+// 1) Error: Cannot find module 'fs/promises'
+// 2) Error: ENOENT: no such file or directory, open 'abc.txt' because file does not exist, forgot to create file
